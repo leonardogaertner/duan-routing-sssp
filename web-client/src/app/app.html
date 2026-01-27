@@ -1,0 +1,16 @@
+<div style="position: absolute; top: 20px; right: 20px; z-index: 9999; background: white; padding: 20px; border-radius: 8px; box-shadow: 0 0 15px rgba(0,0,0,0.2);">
+  <h2 style="margin: 0 0 10px 0;">Duan Solver (2025)</h2>
+  
+  <button (click)="loadRoute()" style="background: #007bff; color: white; border: none; padding: 10px 20px; border-radius: 4px; cursor: pointer; font-size: 16px;">
+    Calcular Rota (TCC)
+  </button>
+
+  <div *ngIf="info" style="margin-top: 15px;">
+    <hr>
+    <p><strong>Distância:</strong> {{ info.distance }}</p>
+    <p><strong>Tempo (ns):</strong> {{ info.computationTime | number }}</p>
+    <p><strong>Nós:</strong> {{ info.pathCount }}</p>
+  </div>
+</div>
+
+<div id="map" style="height: 100vh; width: 100%;"></div>
