@@ -6,7 +6,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import algos.DijkstraSolver;
-import algos.DuanSolver;
+import algos.duan.DuanSolver;
 import graph.Graph;
 
 @Service
@@ -16,7 +16,7 @@ public class BenchmarkService {
     private GraphService graphService; // Para pegar o grafo já carregado
 
     public String runBenchmark(int iterations) {
-        Graph graph = graphService.getGraph(); // Você precisará adicionar um getter no GraphService
+        Graph graph = graphService.getGraph(); 
         if (graph == null) return "Erro: Grafo não carregado.";
 
         StringBuilder csv = new StringBuilder();

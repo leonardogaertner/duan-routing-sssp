@@ -6,7 +6,7 @@ import java.util.List;
 
 import org.springframework.stereotype.Service;
 
-import algos.DuanSolver;
+import algos.duan.DuanSolver;
 import br.udesc.tcc.api.dto.RouteResponse;
 import graph.Graph;
 import graph.GraphTransformer;

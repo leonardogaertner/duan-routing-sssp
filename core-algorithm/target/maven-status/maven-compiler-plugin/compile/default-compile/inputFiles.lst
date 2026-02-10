@@ -1,4 +1,9 @@
-C:\Users\Leona\Documents\UDESC\07\tcc\duan-routing-sssp\core-algorithm\src\main\java\algos\DuanSolver.java
+C:\Users\Leona\Documents\UDESC\07\tcc\duan-routing-sssp\core-algorithm\src\main\java\algos\DijkstraSolver.java
+C:\Users\Leona\Documents\UDESC\07\tcc\duan-routing-sssp\core-algorithm\src\main\java\algos\duan\BaseCaseAlgorithm.java
+C:\Users\Leona\Documents\UDESC\07\tcc\duan-routing-sssp\core-algorithm\src\main\java\algos\duan\DuanContext.java
+C:\Users\Leona\Documents\UDESC\07\tcc\duan-routing-sssp\core-algorithm\src\main\java\algos\duan\DuanResults.java
+C:\Users\Leona\Documents\UDESC\07\tcc\duan-routing-sssp\core-algorithm\src\main\java\algos\duan\DuanSolver.java
+C:\Users\Leona\Documents\UDESC\07\tcc\duan-routing-sssp\core-algorithm\src\main\java\algos\duan\FindPivotsAlgorithm.java
 C:\Users\Leona\Documents\UDESC\07\tcc\duan-routing-sssp\core-algorithm\src\main\java\algos\StandardDijkstra.java
 C:\Users\Leona\Documents\UDESC\07\tcc\duan-routing-sssp\core-algorithm\src\main\java\graph\Graph.java
 C:\Users\Leona\Documents\UDESC\07\tcc\duan-routing-sssp\core-algorithm\src\main\java\graph\GraphTransformer.java

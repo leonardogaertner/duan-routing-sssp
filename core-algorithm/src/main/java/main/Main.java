@@ -2,8 +2,8 @@ package main;
 
 import java.io.IOException;
 
-import algos.DuanSolver;
 import algos.StandardDijkstra;
+import algos.duan.DuanSolver;
 import graph.Graph;
 import graph.GraphTransformer;
 import io.DimacsLoader;
